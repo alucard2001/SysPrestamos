@@ -1,0 +1,13 @@
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\bin\Release\CapaPresentacion.dll
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\bin\Release\CapaPresentacion.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\bin\Release\CapaNegocios.dll
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\bin\Release\CapaDatos.dll
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\bin\Release\CapaNegocios.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\bin\Release\CapaDatos.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.csprojResolveAssemblyReference.cache
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.FrmProvincias.resources
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.Properties.Resources.resources
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.csproj.GenerateResource.Cache
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.dll
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Release\CapaPresentacion.FrmSectores.resources

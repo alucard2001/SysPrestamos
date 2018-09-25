@@ -1,0 +1,5 @@
+D:\Sys_Prestamos\SysPrestamos\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Sys_Prestamos\SysPrestamos\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+D:\Sys_Prestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Sys_Prestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.pdb

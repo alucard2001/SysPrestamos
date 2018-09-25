@@ -1,0 +1,7 @@
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaNegocios.dll
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaNegocios.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaDatos.dll
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaDatos.pdb
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.dll
+D:\Sys_Prestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.pdb
