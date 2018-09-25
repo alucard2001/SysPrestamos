@@ -82,7 +82,7 @@ namespace CapaPresentacion
         private void Ocultar_Columnas()
         {
             this.dataListado.Columns[0].Visible = false;
-            this.dataListado.Columns[3].Visible = false;
+           // this.dataListado.Columns[3].Visible = false;
         }
 
         //Metodo Mostrar

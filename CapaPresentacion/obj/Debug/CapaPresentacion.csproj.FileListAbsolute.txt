@@ -6,3 +6,17 @@ D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.FrmPro
 D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
 D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
 D:\Sys_Prestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\bin\Debug\CapaNegocios.dll
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.FrmClientes.resources
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProvincias.resources
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.FrmSectores.resources
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

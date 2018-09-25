@@ -263,7 +263,7 @@
             this.btn_Guardar.Name = "btn_Guardar";
             this.btn_Guardar.Size = new System.Drawing.Size(99, 35);
             this.btn_Guardar.TabIndex = 7;
-            this.btn_Guardar.Text = "&Buscar";
+            this.btn_Guardar.Text = "&Salvar";
             this.btn_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Guardar.UseVisualStyleBackColor = true;
             this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
