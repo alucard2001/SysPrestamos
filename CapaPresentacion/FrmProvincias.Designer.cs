@@ -243,7 +243,7 @@
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cancelar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Cancelar.Image")));
             this.btn_Cancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Cancelar.Location = new System.Drawing.Point(339, 252);
+            this.btn_Cancelar.Location = new System.Drawing.Point(340, 252);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(99, 35);
             this.btn_Cancelar.TabIndex = 8;
