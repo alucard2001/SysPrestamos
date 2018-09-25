@@ -11,7 +11,7 @@ namespace CapaNegocios
 {
     public class NProvincias
     {
-        //Método Insertar que llama al método Insertar de la clase 
+        //Método Insertar que llama al método Insertar de la clase DCategoría
         //de la CapaDatos
         public static string Insertar(string nombre)
         {
@@ -21,27 +21,27 @@ namespace CapaNegocios
             return Obj.Insertar(Obj);
         }
 
-        //Método Editar que llama al método Editar de la clase 
+        //Método Editar que llama al método Editar de la clase DCategoría
         //de la CapaDatos
-        public static string Editar(int codigoprovincia, string nombre)
+        public static string Editar(int idcategoria, string nombre)
         {
             DProvincias Obj = new DProvincias();
-            Obj.CodigoProvincia = codigoprovincia;
+            Obj.CodigoProvincia = idcategoria;
             Obj.Provincia= nombre;
            
             return Obj.Editar(Obj);
         }
 
-        //Método Eliminar que llama al método Eliminar de la clase 
+        //Método Eliminar que llama al método Eliminar de la clase DCategoría
         //de la CapaDatos
-        public static string Eliminar(int codigoprovincia)
+        public static string Eliminar(int idcategoria)
         {
             DProvincias Obj = new DProvincias();
-            Obj.CodigoProvincia = codigoprovincia;
+            Obj.CodigoProvincia = idcategoria;
             return Obj.Eliminar(Obj);
         }
 
-        //Método Mostrar que llama al método Mostrar de la clase 
+        //Método Mostrar que llama al método Mostrar de la clase DCategoría
         //de la CapaDatos
         public static DataTable Mostrar()
         {
@@ -49,7 +49,7 @@ namespace CapaNegocios
         }
 
         //Método BuscarNombre que llama al método BuscarNombre
-        //de la clase  de la CapaDatos
+        //de la clase DCategoría de la CapaDatos
 
         public static DataTable BuscarNombre(string textobuscar)
         {

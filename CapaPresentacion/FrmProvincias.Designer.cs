@@ -40,19 +40,19 @@
             this.dataListado = new System.Windows.Forms.DataGridView();
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.btn_Eliminar = new System.Windows.Forms.Button();
-            this.btn_Imprimir = new System.Windows.Forms.Button();
+            this.btn_Buscar = new System.Windows.Forms.Button();
             this.txt_Buscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btn_Cancelar = new System.Windows.Forms.Button();
-            this.btn_Guardar = new System.Windows.Forms.Button();
-            this.btn_Editar = new System.Windows.Forms.Button();
-            this.btn_Nuevo = new System.Windows.Forms.Button();
             this.txt_Codigo = new System.Windows.Forms.TextBox();
             this.txt_Provincia = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btn_Nuevo = new System.Windows.Forms.Button();
+            this.btn_Editar = new System.Windows.Forms.Button();
+            this.btn_Cancelar = new System.Windows.Forms.Button();
+            this.btn_Guardar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Cerrar)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -89,7 +89,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(127, 9);
+            this.label1.Location = new System.Drawing.Point(123, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(229, 23);
             this.label1.TabIndex = 0;
@@ -112,7 +112,7 @@
             this.tabPage1.Controls.Add(this.chk_Eliminar);
             this.tabPage1.Controls.Add(this.dataListado);
             this.tabPage1.Controls.Add(this.btn_Eliminar);
-            this.tabPage1.Controls.Add(this.btn_Imprimir);
+            this.tabPage1.Controls.Add(this.btn_Buscar);
             this.tabPage1.Controls.Add(this.txt_Buscar);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -174,37 +174,37 @@
             this.btn_Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Eliminar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Eliminar.Image")));
             this.btn_Eliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Eliminar.Location = new System.Drawing.Point(402, 9);
+            this.btn_Eliminar.Location = new System.Drawing.Point(421, 8);
             this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(107, 35);
+            this.btn_Eliminar.Size = new System.Drawing.Size(88, 35);
             this.btn_Eliminar.TabIndex = 3;
             this.btn_Eliminar.Text = "Eliminar";
             this.btn_Eliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Eliminar.UseVisualStyleBackColor = true;
             this.btn_Eliminar.Click += new System.EventHandler(this.btn_Eliminar_Click);
             // 
-            // btn_Imprimir
+            // btn_Buscar
             // 
-            this.btn_Imprimir.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_Imprimir.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Imprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Imprimir.Image = ((System.Drawing.Image)(resources.GetObject("btn_Imprimir.Image")));
-            this.btn_Imprimir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Imprimir.Location = new System.Drawing.Point(289, 10);
-            this.btn_Imprimir.Name = "btn_Imprimir";
-            this.btn_Imprimir.Size = new System.Drawing.Size(107, 35);
-            this.btn_Imprimir.TabIndex = 2;
-            this.btn_Imprimir.Text = "&Imprimir";
-            this.btn_Imprimir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Imprimir.UseVisualStyleBackColor = true;
-            this.btn_Imprimir.Click += new System.EventHandler(this.btn_Buscar_Click);
+            this.btn_Buscar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_Buscar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Buscar.Image")));
+            this.btn_Buscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Buscar.Location = new System.Drawing.Point(328, 9);
+            this.btn_Buscar.Name = "btn_Buscar";
+            this.btn_Buscar.Size = new System.Drawing.Size(88, 35);
+            this.btn_Buscar.TabIndex = 2;
+            this.btn_Buscar.Text = "&Buscar";
+            this.btn_Buscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Buscar.UseVisualStyleBackColor = true;
+            this.btn_Buscar.Click += new System.EventHandler(this.btn_Buscar_Click);
             // 
             // txt_Buscar
             // 
             this.txt_Buscar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Buscar.Location = new System.Drawing.Point(76, 14);
             this.txt_Buscar.Name = "txt_Buscar";
-            this.txt_Buscar.Size = new System.Drawing.Size(207, 26);
+            this.txt_Buscar.Size = new System.Drawing.Size(246, 26);
             this.txt_Buscar.TabIndex = 1;
             this.txt_Buscar.TextChanged += new System.EventHandler(this.txt_Buscar_TextChanged);
             // 
@@ -236,6 +236,65 @@
             this.tabPage2.Text = "Registro";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // txt_Codigo
+            // 
+            this.txt_Codigo.Location = new System.Drawing.Point(132, 23);
+            this.txt_Codigo.Name = "txt_Codigo";
+            this.txt_Codigo.Size = new System.Drawing.Size(100, 26);
+            this.txt_Codigo.TabIndex = 4;
+            // 
+            // txt_Provincia
+            // 
+            this.txt_Provincia.Location = new System.Drawing.Point(132, 55);
+            this.txt_Provincia.Name = "txt_Provincia";
+            this.txt_Provincia.Size = new System.Drawing.Size(216, 26);
+            this.txt_Provincia.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(8, 55);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(123, 19);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Nombre Provincia:";
+            // 
+            // errorIcono
+            // 
+            this.errorIcono.ContainerControl = this;
+            // 
+            // btn_Nuevo
+            // 
+            this.btn_Nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_Nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Nuevo.Image = ((System.Drawing.Image)(resources.GetObject("btn_Nuevo.Image")));
+            this.btn_Nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Nuevo.Location = new System.Drawing.Point(29, 252);
+            this.btn_Nuevo.Name = "btn_Nuevo";
+            this.btn_Nuevo.Size = new System.Drawing.Size(99, 35);
+            this.btn_Nuevo.TabIndex = 5;
+            this.btn_Nuevo.Text = "&Nuevo";
+            this.btn_Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Nuevo.UseVisualStyleBackColor = true;
+            this.btn_Nuevo.Click += new System.EventHandler(this.btn_Nuevo_Click);
+            // 
+            // btn_Editar
+            // 
+            this.btn_Editar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_Editar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Editar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Editar.Image")));
+            this.btn_Editar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Editar.Location = new System.Drawing.Point(235, 252);
+            this.btn_Editar.Name = "btn_Editar";
+            this.btn_Editar.Size = new System.Drawing.Size(99, 35);
+            this.btn_Editar.TabIndex = 6;
+            this.btn_Editar.Text = "&Editar";
+            this.btn_Editar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Editar.UseVisualStyleBackColor = true;
+            this.btn_Editar.Click += new System.EventHandler(this.btn_Editar_Click);
+            // 
             // btn_Cancelar
             // 
             this.btn_Cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
@@ -243,7 +302,7 @@
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cancelar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Cancelar.Image")));
             this.btn_Cancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Cancelar.Location = new System.Drawing.Point(340, 252);
+            this.btn_Cancelar.Location = new System.Drawing.Point(339, 252);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(99, 35);
             this.btn_Cancelar.TabIndex = 8;
@@ -263,69 +322,10 @@
             this.btn_Guardar.Name = "btn_Guardar";
             this.btn_Guardar.Size = new System.Drawing.Size(99, 35);
             this.btn_Guardar.TabIndex = 7;
-            this.btn_Guardar.Text = "&Salvar";
+            this.btn_Guardar.Text = "&Buscar";
             this.btn_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Guardar.UseVisualStyleBackColor = true;
             this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
-            // 
-            // btn_Editar
-            // 
-            this.btn_Editar.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_Editar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Editar.Image = ((System.Drawing.Image)(resources.GetObject("btn_Editar.Image")));
-            this.btn_Editar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Editar.Location = new System.Drawing.Point(235, 252);
-            this.btn_Editar.Name = "btn_Editar";
-            this.btn_Editar.Size = new System.Drawing.Size(99, 35);
-            this.btn_Editar.TabIndex = 6;
-            this.btn_Editar.Text = "&Editar";
-            this.btn_Editar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Editar.UseVisualStyleBackColor = true;
-            this.btn_Editar.Click += new System.EventHandler(this.btn_Editar_Click);
-            // 
-            // btn_Nuevo
-            // 
-            this.btn_Nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
-            this.btn_Nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Nuevo.Image = ((System.Drawing.Image)(resources.GetObject("btn_Nuevo.Image")));
-            this.btn_Nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Nuevo.Location = new System.Drawing.Point(29, 252);
-            this.btn_Nuevo.Name = "btn_Nuevo";
-            this.btn_Nuevo.Size = new System.Drawing.Size(99, 35);
-            this.btn_Nuevo.TabIndex = 5;
-            this.btn_Nuevo.Text = "&Nuevo";
-            this.btn_Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Nuevo.UseVisualStyleBackColor = true;
-            this.btn_Nuevo.Click += new System.EventHandler(this.btn_Nuevo_Click);
-            // 
-            // txt_Codigo
-            // 
-            this.txt_Codigo.Location = new System.Drawing.Point(132, 23);
-            this.txt_Codigo.Name = "txt_Codigo";
-            this.txt_Codigo.Size = new System.Drawing.Size(100, 26);
-            this.txt_Codigo.TabIndex = 4;
-            // 
-            // txt_Provincia
-            // 
-            this.txt_Provincia.Location = new System.Drawing.Point(132, 55);
-            this.txt_Provincia.Name = "txt_Provincia";
-            this.txt_Provincia.Size = new System.Drawing.Size(216, 26);
-            this.txt_Provincia.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 58);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 19);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Nombre Provincia:";
-            // 
-            // errorIcono
-            // 
-            this.errorIcono.ContainerControl = this;
             // 
             // FrmProvincias
             // 
@@ -361,7 +361,7 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_Eliminar;
-        private System.Windows.Forms.Button btn_Imprimir;
+        private System.Windows.Forms.Button btn_Buscar;
         private System.Windows.Forms.TextBox txt_Buscar;
         private System.Windows.Forms.Label label2;
         

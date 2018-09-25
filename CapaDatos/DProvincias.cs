@@ -47,7 +47,6 @@ namespace CapaDatos
         {
             this.CodigoProvincia = codigoprovincia;
             this.Provincia = provincia;
-
             this.TextoBuscar = textobuscar;
         }
 
@@ -64,7 +63,7 @@ namespace CapaDatos
                 //Establecer el Comando
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
-                SqlCmd.CommandText = "Prestamos.spinsertar_Provincias";
+                SqlCmd.CommandText = "spinsertar_Provincias";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter ParCodigoProvincia = new SqlParameter();
@@ -111,7 +110,7 @@ namespace CapaDatos
                 //Establecer el Comando
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
-                SqlCmd.CommandText = "Prestamos.speditar_Provincias";
+                SqlCmd.CommandText = "speditar_Provincias";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
 
@@ -159,7 +158,7 @@ namespace CapaDatos
                 //Establecer el Comando
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
-                SqlCmd.CommandText = "Prestamos.speliminar_Provincias";
+                SqlCmd.CommandText = "speliminar_Provincias";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter ParCodigoProvincia = new SqlParameter();
@@ -222,7 +221,7 @@ namespace CapaDatos
                 SqlCon.ConnectionString = Connetion.Cn;
                 SqlCommand SqlCmd = new SqlCommand();
                 SqlCmd.Connection = SqlCon;
-                SqlCmd.CommandText = "Prestamos.spbuscar_Provincias";
+                SqlCmd.CommandText = "spbuscar_Provincias";
                 SqlCmd.CommandType = CommandType.StoredProcedure;
 
                 SqlParameter ParTextoBuscar = new SqlParameter();

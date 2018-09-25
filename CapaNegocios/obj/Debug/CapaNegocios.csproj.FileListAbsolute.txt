@@ -5,10 +5,3 @@ D:\Sys_Prestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaDatos.pdb
 D:\Sys_Prestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
 D:\Sys_Prestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.dll
 D:\Sys_Prestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.pdb
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaNegocios.dll
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaNegocios.pdb
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaDatos.dll
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\bin\Debug\CapaDatos.pdb
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.dll
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaNegocios\obj\Debug\CapaNegocios.pdb

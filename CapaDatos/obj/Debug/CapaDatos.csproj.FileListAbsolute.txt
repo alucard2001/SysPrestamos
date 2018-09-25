@@ -3,8 +3,3 @@ D:\Sys_Prestamos\SysPrestamos\CapaDatos\bin\Debug\CapaDatos.pdb
 D:\Sys_Prestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 D:\Sys_Prestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.dll
 D:\Sys_Prestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.pdb
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaDatos\bin\Debug\CapaDatos.dll
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaDatos\bin\Debug\CapaDatos.pdb
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.dll
-C:\Users\trejo\OneDrive\Documentos\Visual Studio 2013\Projects\SysPrestamos\SysPrestamos\CapaDatos\obj\Debug\CapaDatos.pdb

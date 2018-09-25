@@ -1,0 +1,28 @@
+
+-- necesaria para tener acceso a datos desde el origen XML.
+-- Usamos BULK para leer un archivo
+DECLARE @x xml
+SELECT @x = P
+FROM OPENROWSET(BULK 'C:\eje\jj.xml', SINGLE_BLOB) AS Datos(P)
+ 
+SELECT @x
+ 
+-- Leemos el texto de XML proporcionado como entrada,
+-- analizando el texto con el analizador MSXML sp_xml_preparedocument
+ 
+DECLARE @hdoc int
+EXEC sp_xml_preparedocument @hdoc OUTPUT,@x
+ 
+-- Realizamos la consulta al XML segun la estructura (Primer nodo &amp;quot;Blog&amp;quot;, segundo &amp;quot;Item&amp;quot;)
+-- usando OPENXML.
+SELECT *
+FROM OPENXML (@hdoc, '/records/record',2)
+WITH (
+Factura int,
+Descripcion nvarchar(100),
+Cliente nvarchar(100),
+Correo nvarchar(100)
+)
+ 
+-- Liberamos memoria
+EXEC sp_xml_removedocument @hdoc
